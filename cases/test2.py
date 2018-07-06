@@ -43,7 +43,7 @@ endTime//结束时间
 duration//耗时
 '''
 devlist = []  #设备列表
-dellist = [] #需要删除的设备列表索引
+dellist = [] #需要删除的设备列表
 # 找设备
 def getdevlist():
     try:
