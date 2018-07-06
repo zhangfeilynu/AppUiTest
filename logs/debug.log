@@ -1,0 +1,332 @@
+2018-07-05 14:57:17,418 [MainThread:8464] [root:38] [INFO]- 获取设备信息
+2018-07-05 14:57:17,418 [MainThread:8464] [root:38] [INFO]- 获取设备信息
+2018-07-05 14:57:17,419 [MainThread:8464] [root:39] [DEBUG]- 获取设备信息
+2018-07-05 14:57:17,419 [MainThread:8464] [root:39] [DEBUG]- 获取设备信息
+2018-07-05 14:57:17,419 [MainThread:8464] [root:40] [ERROR]- 获取设备信息
+2018-07-05 14:57:17,419 [MainThread:8464] [root:40] [ERROR]- 获取设备信息
+2018-07-05 14:57:17,419 [MainThread:8464] [root:41] [WARNING]- 获取设备信息
+2018-07-05 14:57:17,419 [MainThread:8464] [root:41] [WARNING]- 获取设备信息
+2018-07-05 14:57:17,420 [MainThread:8464] [root:42] [CRITICAL]- 获取设备信息
+2018-07-05 14:57:17,420 [MainThread:8464] [root:42] [CRITICAL]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:38] [INFO]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:38] [INFO]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:39] [DEBUG]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:39] [DEBUG]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:40] [ERROR]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:40] [ERROR]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:41] [WARNING]- 获取设备信息
+2018-07-05 15:01:12,792 [MainThread:13188] [root:41] [WARNING]- 获取设备信息
+2018-07-05 15:01:12,793 [MainThread:13188] [root:42] [CRITICAL]- 获取设备信息
+2018-07-05 15:01:12,793 [MainThread:13188] [root:42] [CRITICAL]- 获取设备信息
+2018-07-05 15:08:55,525 [MainThread:9104] [root:39] [INFO]- 获取设备信息
+2018-07-05 15:08:55,525 [MainThread:9104] [root:40] [DEBUG]- 获取设备信息
+2018-07-05 15:08:55,526 [MainThread:9104] [root:41] [ERROR]- 获取设备信息
+2018-07-05 15:08:55,526 [MainThread:9104] [root:42] [WARNING]- 获取设备信息
+2018-07-05 15:08:55,526 [MainThread:9104] [root:43] [CRITICAL]- 获取设备信息
+2018-07-05 15:25:04,177 [MainThread:11852] [root:39] [INFO]- 开始获取设备信息
+2018-07-05 15:25:04,197 [MainThread:11852] [root:55] [INFO]- 安装APP
+2018-07-05 15:25:41,460 [MainThread:11852] [root:61] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nFailure [INSTALL_CANCELED_BY_USER]\r\r\n'
+2018-07-05 15:25:46,462 [MainThread:11852] [root:70] [INFO]- 启动APP
+2018-07-05 15:25:47,299 [MainThread:11852] [root:76] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\nError type 3\r\r\nError: Activity class {com.redstar.mainapp/com.redstar.mainapp.business.LaunchActivity} does not exist.\r\r\n'
+2018-07-05 15:25:52,300 [MainThread:11852] [root:85] [INFO]- 卸载APP
+2018-07-05 15:25:53,094 [MainThread:11852] [root:91] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Failure [DELETE_FAILED_INTERNAL_ERROR]\r\r\n'
+2018-07-05 15:27:13,063 [MainThread:1968] [root:39] [INFO]- 开始获取设备信息
+2018-07-05 15:27:13,081 [MainThread:1968] [root:45] [INFO]- 设备列表：['335769430804']
+2018-07-05 15:27:13,082 [MainThread:1968] [root:55] [INFO]- 安装APP
+2018-07-05 15:27:58,534 [MainThread:1968] [root:61] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-05 15:28:03,535 [MainThread:1968] [root:70] [INFO]- 启动APP
+2018-07-05 15:28:04,355 [MainThread:1968] [root:76] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 15:28:09,356 [MainThread:1968] [root:85] [INFO]- 卸载APP
+2018-07-05 15:28:10,720 [MainThread:1968] [root:91] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 15:31:11,780 [MainThread:9204] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 15:31:11,797 [MainThread:9204] [root:47] [INFO]- 设备列表：[]
+2018-07-05 15:31:11,797 [MainThread:9204] [root:58] [INFO]- 安装APP
+2018-07-05 15:31:16,797 [MainThread:9204] [root:73] [INFO]- 启动APP
+2018-07-05 15:31:21,798 [MainThread:9204] [root:88] [INFO]- 卸载APP
+2018-07-05 15:33:31,479 [MainThread:8816] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 15:33:31,496 [MainThread:8816] [root:47] [INFO]- 设备列表：[]
+2018-07-05 15:34:06,756 [MainThread:7276] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 15:34:06,774 [MainThread:7276] [root:47] [INFO]- 设备列表：[]
+2018-07-05 15:34:06,774 [MainThread:7276] [root:49] [INFO]- 没有可用设备
+2018-07-05 15:34:52,685 [MainThread:12056] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 15:34:52,702 [MainThread:12056] [root:47] [INFO]- 设备列表：['335769430804']
+2018-07-05 15:34:52,702 [MainThread:12056] [root:61] [INFO]- 安装APP
+2018-07-05 15:35:40,661 [MainThread:12056] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-05 15:35:45,662 [MainThread:12056] [root:76] [INFO]- 启动APP
+2018-07-05 15:35:46,558 [MainThread:12056] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 15:35:51,559 [MainThread:12056] [root:91] [INFO]- 卸载APP
+2018-07-05 15:35:52,941 [MainThread:12056] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 16:11:20,772 [MainThread:10232] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 16:11:20,791 [MainThread:10232] [root:47] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-05 16:11:20,791 [MainThread:10232] [root:61] [INFO]- 安装APP
+2018-07-05 16:12:16,858 [MainThread:10232] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-05 16:12:56,264 [MainThread:10232] [root:67] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'Success\r\n'
+2018-07-05 16:13:01,265 [MainThread:10232] [root:76] [INFO]- 启动APP
+2018-07-05 16:13:02,288 [MainThread:10232] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 16:13:02,458 [MainThread:10232] [root:82] [INFO]- adb -s 3b7a2998  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\n'
+2018-07-05 16:13:07,460 [MainThread:10232] [root:91] [INFO]- 卸载APP
+2018-07-05 16:13:08,810 [MainThread:10232] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 16:13:09,938 [MainThread:10232] [root:97] [INFO]- adb -s 3b7a2998 uninstall com.redstar.mainapp卸载结果:b'Success\r\n'
+2018-07-05 16:31:24,501 [MainThread:7600] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 16:31:24,518 [MainThread:7600] [root:47] [INFO]- 设备列表：['335769430804']
+2018-07-05 16:31:24,519 [MainThread:7600] [root:61] [INFO]- 安装APP
+2018-07-05 16:32:09,024 [MainThread:7600] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:	pkg: /data/local/tmp/c_main.apk
+Success
+
+2018-07-05 16:32:14,025 [MainThread:7600] [root:76] [INFO]- 启动APP
+2018-07-05 16:32:14,841 [MainThread:7600] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 16:32:19,841 [MainThread:7600] [root:91] [INFO]- 卸载APP
+2018-07-05 16:32:21,182 [MainThread:7600] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 16:42:24,420 [MainThread:12948] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 16:42:24,441 [MainThread:12948] [root:47] [INFO]- 设备列表：['335769430804']
+2018-07-05 16:42:24,441 [MainThread:12948] [root:61] [INFO]- 安装APP
+2018-07-05 16:43:12,450 [MainThread:12948] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:	pkg: /data/local/tmp/c_main.apk
+Success
+2618 KB/s (65882099 bytes in 24.573s)
+
+2018-07-05 16:43:17,450 [MainThread:12948] [root:76] [INFO]- 启动APP
+2018-07-05 16:43:18,253 [MainThread:12948] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 16:43:23,254 [MainThread:12948] [root:91] [INFO]- 卸载APP
+2018-07-05 16:43:24,608 [MainThread:12948] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 16:45:43,313 [MainThread:10408] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 16:45:43,330 [MainThread:10408] [root:47] [INFO]- 设备列表：['335769430804']
+2018-07-05 16:45:43,330 [MainThread:10408] [root:61] [INFO]- 安装APP
+2018-07-05 16:46:29,051 [MainThread:10408] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:	pkg: /data/local/tmp/c_main.apk
+Success
+
+2018-07-05 16:46:34,052 [MainThread:10408] [root:76] [INFO]- 启动APP
+2018-07-05 16:46:34,873 [MainThread:10408] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 16:46:39,874 [MainThread:10408] [root:91] [INFO]- 卸载APP
+2018-07-05 16:46:41,286 [MainThread:10408] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 16:47:21,622 [MainThread:9476] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 16:47:21,640 [MainThread:9476] [root:47] [INFO]- 设备列表：['335769430804']
+2018-07-05 16:47:21,641 [MainThread:9476] [root:61] [INFO]- 安装APP
+2018-07-05 16:48:07,237 [MainThread:9476] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:	pkg: /data/local/tmp/c_main.apk
+Success
+
+2018-07-05 16:48:12,238 [MainThread:9476] [root:76] [INFO]- 启动APP
+2018-07-05 16:48:13,048 [MainThread:9476] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 16:48:18,049 [MainThread:9476] [root:91] [INFO]- 卸载APP
+2018-07-05 16:48:19,430 [MainThread:9476] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 16:52:43,473 [MainThread:10644] [root:41] [INFO]- 开始获取设备信息
+2018-07-05 16:52:43,490 [MainThread:10644] [root:47] [INFO]- 设备列表：['335769430804']
+2018-07-05 16:52:43,490 [MainThread:10644] [root:61] [INFO]- 安装APP
+2018-07-05 16:53:30,217 [MainThread:10644] [root:67] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-05 16:53:35,218 [MainThread:10644] [root:76] [INFO]- 启动APP
+2018-07-05 16:53:36,026 [MainThread:10644] [root:82] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 16:53:41,027 [MainThread:10644] [root:91] [INFO]- 卸载APP
+2018-07-05 16:53:42,406 [MainThread:10644] [root:97] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-05 17:48:31,762 [MainThread:9480] [root:40] [INFO]- 开始获取设备信息
+2018-07-05 17:48:31,781 [MainThread:9480] [root:46] [INFO]- 设备列表：['335769430804']
+2018-07-05 17:48:31,781 [MainThread:9480] [root:60] [INFO]- 安装APP
+2018-07-05 17:49:22,081 [MainThread:9480] [root:66] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:	pkg: /data/local/tmp/c_main.apk
+Success
+
+2018-07-05 17:49:27,081 [MainThread:9480] [root:75] [INFO]- 启动APP
+2018-07-05 17:49:27,862 [MainThread:9480] [root:81] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-05 17:49:32,864 [MainThread:9480] [root:90] [INFO]- 卸载APP
+2018-07-05 17:49:34,293 [MainThread:9480] [root:96] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 10:01:48,664 [MainThread:9336] [root:42] [INFO]- 开始获取设备信息
+2018-07-06 10:01:48,684 [MainThread:9336] [root:48] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:01:48,684 [MainThread:9336] [root:62] [INFO]- 安装APP
+2018-07-06 10:02:35,108 [MainThread:9336] [root:68] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:	pkg: /data/local/tmp/c_main.apk
+Success
+
+2018-07-06 10:02:40,109 [MainThread:9336] [root:77] [INFO]- 启动APP
+2018-07-06 10:02:40,954 [MainThread:9336] [root:83] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 10:02:45,956 [MainThread:9336] [root:92] [INFO]- 卸载APP
+2018-07-06 10:02:47,295 [MainThread:9336] [root:98] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 10:46:00,586 [MainThread:7672] [root:45] [INFO]- 开始获取设备信息
+2018-07-06 10:46:00,608 [MainThread:7672] [root:51] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:46:00,609 [MainThread:7672] [root:65] [INFO]- 安装APP
+2018-07-06 10:46:45,145 [MainThread:7672] [root:71] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-06 10:47:31,332 [MainThread:6420] [root:45] [INFO]- 开始获取设备信息
+2018-07-06 10:47:31,351 [MainThread:6420] [root:51] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:47:31,352 [MainThread:6420] [root:65] [INFO]- 安装APP
+2018-07-06 10:48:15,941 [MainThread:6420] [root:71] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-06 10:48:33,078 [MainThread:10684] [root:45] [INFO]- 开始获取设备信息
+2018-07-06 10:48:33,098 [MainThread:10684] [root:51] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:48:33,098 [MainThread:10684] [root:65] [INFO]- 安装APP
+2018-07-06 10:49:18,628 [MainThread:10684] [root:71] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-06 10:49:23,631 [MainThread:10684] [root:80] [INFO]- 启动APP
+2018-07-06 10:49:24,506 [MainThread:10684] [root:86] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 10:49:29,510 [MainThread:10684] [root:95] [INFO]- 卸载APP
+2018-07-06 10:49:30,881 [MainThread:10684] [root:101] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 10:51:24,509 [MainThread:3540] [root:46] [INFO]- 开始获取设备信息
+2018-07-06 10:51:24,528 [MainThread:3540] [root:52] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:51:24,528 [MainThread:3540] [root:66] [INFO]- 安装APP
+2018-07-06 10:52:10,907 [MainThread:3540] [root:72] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-06 10:52:15,908 [MainThread:3540] [root:81] [INFO]- 启动APP
+2018-07-06 10:52:16,783 [MainThread:3540] [root:87] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 10:52:21,785 [MainThread:3540] [root:96] [INFO]- 卸载APP
+2018-07-06 10:52:23,164 [MainThread:3540] [root:102] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 10:52:29,121 [MainThread:9056] [root:46] [INFO]- 开始获取设备信息
+2018-07-06 10:52:29,140 [MainThread:9056] [root:52] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:52:29,141 [MainThread:9056] [root:66] [INFO]- 安装APP
+2018-07-06 10:53:14,763 [MainThread:9056] [root:72] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-06 10:53:19,766 [MainThread:9056] [root:81] [INFO]- 启动APP
+2018-07-06 10:53:20,578 [MainThread:9056] [root:87] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 10:53:25,584 [MainThread:9056] [root:96] [INFO]- 卸载APP
+2018-07-06 10:53:26,920 [MainThread:9056] [root:102] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 10:54:01,246 [MainThread:10336] [root:46] [INFO]- 开始获取设备信息
+2018-07-06 10:54:01,265 [MainThread:10336] [root:52] [INFO]- 设备列表：['335769430804']
+2018-07-06 10:54:01,266 [MainThread:10336] [root:66] [INFO]- 安装APP
+2018-07-06 10:54:46,359 [MainThread:10336] [root:72] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:b'\tpkg: /data/local/tmp/c_main.apk\r\r\nSuccess\r\r\n'
+2018-07-06 10:54:51,361 [MainThread:10336] [root:81] [INFO]- 启动APP
+2018-07-06 10:54:52,209 [MainThread:10336] [root:87] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 10:54:57,211 [MainThread:10336] [root:96] [INFO]- 卸载APP
+2018-07-06 10:54:58,543 [MainThread:10336] [root:102] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 11:01:35,664 [MainThread:11644] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 11:01:35,681 [MainThread:11644] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 11:01:35,683 [MainThread:11644] [root:63] [INFO]- 安装APP
+2018-07-06 11:02:21,796 [MainThread:11644] [root:69] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:['\tpkg: /data/local/tmp/c_main.apk\r', 'Success\r', '']
+2018-07-06 11:02:26,796 [MainThread:11644] [root:78] [INFO]- 启动APP
+2018-07-06 11:02:27,605 [MainThread:11644] [root:84] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 11:02:32,605 [MainThread:11644] [root:93] [INFO]- 卸载APP
+2018-07-06 11:02:33,933 [MainThread:11644] [root:99] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 11:06:13,319 [MainThread:11644] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 11:06:13,335 [MainThread:11644] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 11:06:13,335 [MainThread:11644] [root:63] [INFO]- 安装APP
+2018-07-06 11:06:59,305 [MainThread:11644] [root:69] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg: /data/local/tmp/c_main.apk
+Success
+2018-07-06 11:07:04,306 [MainThread:11644] [root:78] [INFO]- 启动APP
+2018-07-06 11:07:05,187 [MainThread:11644] [root:84] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:b'Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r\r\n'
+2018-07-06 11:07:10,188 [MainThread:11644] [root:93] [INFO]- 卸载APP
+2018-07-06 11:07:11,553 [MainThread:11644] [root:99] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:b'Success\r\r\n'
+2018-07-06 11:09:22,415 [MainThread:7692] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 11:09:22,433 [MainThread:7692] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 11:09:22,434 [MainThread:7692] [root:63] [INFO]- 安装APP
+2018-07-06 11:10:08,555 [MainThread:7692] [root:69] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:['\tpkg: /data/local/tmp/c_main.apk\r', 'Success\r', '']
+2018-07-06 11:10:13,555 [MainThread:7692] [root:78] [INFO]- 启动APP
+2018-07-06 11:10:14,388 [MainThread:7692] [root:84] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:['Starting: Intent { cmp=com.redstar.mainapp/.business.LaunchActivity }\r', '']
+2018-07-06 11:10:19,390 [MainThread:7692] [root:93] [INFO]- 卸载APP
+2018-07-06 11:10:20,740 [MainThread:7692] [root:99] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:['Success\r', '']
+2018-07-06 13:28:56,484 [MainThread:7212] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 13:28:56,502 [MainThread:7212] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 13:28:56,503 [MainThread:7212] [root:63] [INFO]- 安装APP
+2018-07-06 13:30:50,552 [MainThread:9984] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 13:30:50,572 [MainThread:9984] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 13:30:50,572 [MainThread:9984] [root:63] [INFO]- 安装APP
+2018-07-06 13:31:36,086 [MainThread:9984] [root:70] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 13:31:41,088 [MainThread:9984] [root:79] [INFO]- 启动APP
+2018-07-06 13:31:42,177 [MainThread:9984] [root:86] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 13:31:47,177 [MainThread:9984] [root:95] [INFO]- 卸载APP
+2018-07-06 13:31:48,474 [MainThread:9984] [root:102] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 13:36:15,528 [MainThread:11852] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 13:36:15,546 [MainThread:11852] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 13:36:15,546 [MainThread:11852] [root:63] [INFO]- 安装APP
+2018-07-06 13:38:04,785 [MainThread:4452] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 13:38:04,801 [MainThread:4452] [root:49] [INFO]- 设备列表：['335769430804']
+2018-07-06 13:38:04,802 [MainThread:4452] [root:63] [INFO]- 安装APP
+2018-07-06 13:38:32,288 [MainThread:4452] [root:70] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkFailure[INSTALL_CANCELED_BY_USER]
+2018-07-06 13:38:37,289 [MainThread:4452] [root:79] [INFO]- 启动APP
+2018-07-06 13:38:38,071 [MainThread:4452] [root:86] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}Errortype3Error:Activityclass{com.redstar.mainapp/com.redstar.mainapp.business.LaunchActivity}doesnotexist.
+2018-07-06 13:38:43,072 [MainThread:4452] [root:95] [INFO]- 卸载APP
+2018-07-06 13:38:43,834 [MainThread:4452] [root:102] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Failure[DELETE_FAILED_INTERNAL_ERROR]
+2018-07-06 14:20:42,644 [MainThread:8316] [root:43] [INFO]- 开始获取设备信息
+2018-07-06 14:20:42,661 [MainThread:8316] [root:49] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 14:20:42,661 [MainThread:8316] [root:63] [INFO]- 安装APP
+2018-07-06 14:21:29,197 [MainThread:8316] [root:70] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 14:22:07,220 [MainThread:8316] [root:70] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Failure[INSTALL_FAILED_USER_RESTRICTED:Installcanceledbyuser]
+2018-07-06 14:22:12,221 [MainThread:8316] [root:79] [INFO]- 启动APP
+2018-07-06 14:22:13,029 [MainThread:8316] [root:86] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 14:22:13,187 [MainThread:8316] [root:86] [INFO]- adb -s 3b7a2998  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}Errortype3Error:Activityclass{com.redstar.mainapp/com.redstar.mainapp.business.LaunchActivity}doesnotexist.
+2018-07-06 14:22:18,188 [MainThread:8316] [root:95] [INFO]- 卸载APP
+2018-07-06 14:22:19,473 [MainThread:8316] [root:102] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 14:22:20,111 [MainThread:8316] [root:102] [INFO]- adb -s 3b7a2998 uninstall com.redstar.mainapp卸载结果:Exceptionoccurredwhileexecuting:java.lang.IllegalArgumentException:Unknownpackage:com.redstar.mainappatcom.android.server.pm.Settings.isOrphaned(Settings.java:4429)atcom.android.server.pm.PackageManagerService.isOrphaned(PackageManagerService.java:21974)atcom.android.server.pm.PackageManagerService.deletePackageVersioned(PackageManagerService.java:18991)atcom.android.server.pm.PackageInstallerService.uninstall(PackageInstallerService.java:913)atcom.android.server.pm.PackageManagerShellCommand.runUninstall(PackageManagerShellCommand.java:912)atcom.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:134)atandroid.os.ShellCommand.exec(ShellCommand.java:96)atcom.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:22281)atandroid.os.Binder.shellCommand(Binder.java:576)atandroid.os.Binder.onTransact(Binder.java:476)atandroid.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:2657)atcom.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:3658)atandroid.os.Binder.execTransact(Binder.java:677)
+2018-07-06 14:41:45,829 [MainThread:7460] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 14:41:45,845 [MainThread:7460] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 14:41:45,846 [MainThread:7460] [root:52] [INFO]- 安装APP
+2018-07-06 14:42:39,039 [MainThread:7460] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 14:43:10,502 [MainThread:7460] [root:59] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Failure[INSTALL_FAILED_USER_RESTRICTED:Installcanceledbyuser]
+2018-07-06 14:43:15,503 [MainThread:7460] [root:70] [INFO]- 启动APP
+2018-07-06 14:43:16,305 [MainThread:7460] [root:77] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 14:43:21,305 [MainThread:7460] [root:86] [INFO]- 卸载APP
+2018-07-06 14:43:22,565 [MainThread:7460] [root:93] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 14:45:38,434 [MainThread:12120] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 14:45:38,453 [MainThread:12120] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 14:45:38,453 [MainThread:12120] [root:52] [INFO]- 安装APP
+2018-07-06 14:46:07,161 [MainThread:12120] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkFailure[INSTALL_CANCELED_BY_USER]
+2018-07-06 14:53:48,368 [MainThread:13280] [root:52] [INFO]- 安装APP
+2018-07-06 14:55:01,604 [MainThread:10384] [root:52] [INFO]- 安装APP
+2018-07-06 14:55:06,604 [MainThread:10384] [root:73] [INFO]- 启动APP
+2018-07-06 14:55:11,605 [MainThread:10384] [root:89] [INFO]- 卸载APP
+2018-07-06 14:55:53,391 [MainThread:12120] [root:52] [INFO]- 安装APP
+2018-07-06 14:55:58,391 [MainThread:12120] [root:73] [INFO]- 启动APP
+2018-07-06 14:56:03,392 [MainThread:12120] [root:89] [INFO]- 卸载APP
+2018-07-06 14:56:56,013 [MainThread:10868] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 14:56:56,032 [MainThread:10868] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 14:56:56,032 [MainThread:10868] [root:52] [INFO]- 安装APP
+2018-07-06 14:57:41,385 [MainThread:10868] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 14:58:18,213 [MainThread:10868] [root:59] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Success
+2018-07-06 14:58:23,214 [MainThread:10868] [root:73] [INFO]- 启动APP
+2018-07-06 14:58:24,036 [MainThread:10868] [root:80] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 14:58:24,176 [MainThread:10868] [root:80] [INFO]- adb -s 3b7a2998  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 14:58:29,177 [MainThread:10868] [root:89] [INFO]- 卸载APP
+2018-07-06 14:58:30,450 [MainThread:10868] [root:96] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 14:58:31,648 [MainThread:10868] [root:96] [INFO]- adb -s 3b7a2998 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:15:13,055 [MainThread:3200] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:15:13,072 [MainThread:3200] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 15:15:13,072 [MainThread:3200] [root:52] [INFO]- 安装APP
+2018-07-06 15:15:59,437 [MainThread:3200] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 15:16:36,799 [MainThread:3200] [root:59] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Success
+2018-07-06 15:16:41,801 [MainThread:3200] [root:73] [INFO]- 启动APP
+2018-07-06 15:16:42,608 [MainThread:3200] [root:80] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 15:16:42,802 [MainThread:3200] [root:80] [INFO]- adb -s 3b7a2998  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 15:16:47,803 [MainThread:3200] [root:89] [INFO]- 卸载APP
+2018-07-06 15:16:49,088 [MainThread:3200] [root:96] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:16:50,234 [MainThread:3200] [root:96] [INFO]- adb -s 3b7a2998 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:16:55,604 [MainThread:10708] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:16:55,622 [MainThread:10708] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 15:16:55,624 [MainThread:10708] [root:52] [INFO]- 安装APP
+2018-07-06 15:17:23,500 [MainThread:10708] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkFailure[INSTALL_CANCELED_BY_USER]
+2018-07-06 15:18:16,296 [MainThread:8140] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:18:16,313 [MainThread:8140] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 15:18:16,313 [MainThread:8140] [root:52] [INFO]- 安装APP
+2018-07-06 15:19:03,144 [MainThread:8140] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 15:19:40,194 [MainThread:8140] [root:59] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Success
+2018-07-06 15:19:45,194 [MainThread:8140] [root:73] [INFO]- 启动APP
+2018-07-06 15:19:46,007 [MainThread:8140] [root:80] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 15:19:46,171 [MainThread:8140] [root:80] [INFO]- adb -s 3b7a2998  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 15:19:51,171 [MainThread:8140] [root:89] [INFO]- 卸载APP
+2018-07-06 15:19:52,479 [MainThread:8140] [root:96] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:19:53,552 [MainThread:8140] [root:96] [INFO]- adb -s 3b7a2998 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:19:59,704 [MainThread:4076] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:19:59,724 [MainThread:4076] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 15:19:59,724 [MainThread:4076] [root:52] [INFO]- 安装APP
+2018-07-06 15:20:27,923 [MainThread:4076] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkFailure[INSTALL_CANCELED_BY_USER]
+2018-07-06 15:21:05,782 [MainThread:4076] [root:59] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Success
+2018-07-06 15:21:10,782 [MainThread:4076] [root:73] [INFO]- 启动APP
+2018-07-06 15:21:10,946 [MainThread:4076] [root:80] [INFO]- adb -s 3b7a2998  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 15:21:15,947 [MainThread:4076] [root:89] [INFO]- 卸载APP
+2018-07-06 15:21:16,836 [MainThread:4076] [root:96] [INFO]- adb -s 3b7a2998 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:21:41,878 [MainThread:13256] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:21:41,898 [MainThread:13256] [root:38] [INFO]- 设备列表：['335769430804', '3b7a2998']
+2018-07-06 15:21:41,898 [MainThread:13256] [root:52] [INFO]- 安装APP
+2018-07-06 15:22:29,552 [MainThread:13256] [root:59] [INFO]- adb  -s 335769430804 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:pkg:/data/local/tmp/c_main.apkSuccess
+2018-07-06 15:22:56,620 [MainThread:13256] [root:59] [INFO]- adb  -s 3b7a2998 install D:\\workspace\\hmautotest\\apps\\c_main.apk安装结果:Failure[INSTALL_FAILED_USER_RESTRICTED:Installcanceledbyuser]
+2018-07-06 15:23:01,621 [MainThread:13256] [root:73] [INFO]- 启动APP
+2018-07-06 15:23:02,422 [MainThread:13256] [root:80] [INFO]- adb -s 335769430804  shell am start -n  com.redstar.mainapp/.business.LaunchActivity启动结果:Starting:Intent{cmp=com.redstar.mainapp/.business.LaunchActivity}
+2018-07-06 15:23:07,422 [MainThread:13256] [root:89] [INFO]- 卸载APP
+2018-07-06 15:23:08,696 [MainThread:13256] [root:96] [INFO]- adb -s 335769430804 uninstall com.redstar.mainapp卸载结果:Success
+2018-07-06 15:26:21,537 [MainThread:7212] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:26:21,556 [MainThread:7212] [root:38] [INFO]- 设备列表：[]
+2018-07-06 15:26:21,556 [MainThread:7212] [root:40] [INFO]- 没有可用设备
+2018-07-06 15:26:21,556 [MainThread:7212] [root:53] [INFO]- 安装APP
+2018-07-06 15:26:26,556 [MainThread:7212] [root:74] [INFO]- 启动APP
+2018-07-06 15:26:31,556 [MainThread:7212] [root:90] [INFO]- 卸载APP
+2018-07-06 15:26:42,726 [MainThread:11700] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:26:42,743 [MainThread:11700] [root:38] [INFO]- 设备列表：[]
+2018-07-06 15:26:42,743 [MainThread:11700] [root:40] [INFO]- 没有可用设备
+2018-07-06 15:26:42,744 [MainThread:11700] [root:53] [INFO]- 安装APP
+2018-07-06 15:26:47,743 [MainThread:11700] [root:74] [INFO]- 启动APP
+2018-07-06 15:26:52,744 [MainThread:11700] [root:90] [INFO]- 卸载APP
+2018-07-06 15:27:01,160 [MainThread:12608] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:27:01,177 [MainThread:12608] [root:38] [INFO]- 设备列表：[]
+2018-07-06 15:27:01,177 [MainThread:12608] [root:40] [INFO]- 没有可用设备
+2018-07-06 15:27:17,332 [MainThread:12368] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:27:17,351 [MainThread:12368] [root:38] [INFO]- 设备列表：[]
+2018-07-06 15:27:17,351 [MainThread:12368] [root:40] [INFO]- 没有可用设备
+2018-07-06 15:33:06,066 [MainThread:9428] [root:32] [INFO]- 开始获取设备信息
+2018-07-06 15:33:06,086 [MainThread:9428] [root:38] [INFO]- 设备列表：[]
+2018-07-06 15:33:06,088 [MainThread:9428] [root:40] [INFO]- 没有可用设备
