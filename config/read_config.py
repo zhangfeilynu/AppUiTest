@@ -18,6 +18,7 @@ conf.read(config_path)
 apk_path = conf.get('app', 'apk_path')
 main_activity = conf.get('app', 'main_activity')
 package_name = conf.get('app', 'package_name')
+start_result = conf.get('app', 'start_result')
 
 
 # print(rootPath)

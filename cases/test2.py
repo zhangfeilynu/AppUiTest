@@ -44,6 +44,10 @@ duration//耗时
 '''
 devlist = []  #设备列表
 dellist = [] #需要删除的设备列表
+summary = {} #汇总报告
+details = [] #每个设备每步的详细报告列表
+detail = {} #单个设备某一步骤的报告
+report = {summary, details} #单次执行的测试报告
 # 找设备
 def getdevlist():
     try:
