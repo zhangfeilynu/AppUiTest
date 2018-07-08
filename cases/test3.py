@@ -5,6 +5,7 @@ import unittest
 import time
 from datetime import datetime
 import subprocess
+import json
 from typing import Any, Union, List
 from appium import webdriver
 import logging.config
@@ -197,6 +198,16 @@ def uninstall_app():
         summary['start_time'] = time.strftime("%Y-%m-%d %H:%M:%S", start_time)  # 格式化开始时间
         end_time = time.localtime(summary.get('end_time') / 1000)
         summary['end_time'] = time.strftime("%Y-%m-%d %H:%M:%S", end_time)  # 格式化结束时间
+        summary.setdefault('result_status', 'pass')
+        for i in range(len(details)):
+            if details[i].get('result_status') == 'fail':
+                summary['result_status'] = 'fail'  #如果存在失败的步骤，则整个测试失败
+                break
+
+        #存储测试结果
+        file_name = ''.join([rootPath, '/', exec_uid, '.json'])
+        f = open(file_name, 'w')
+        f.write(str(summary))
     except subprocess.CalledProcessError as e:
         logger.error('卸载app失败：', e)
         sys.exit(1)
@@ -211,4 +222,5 @@ if __name__ == '__main__':
     start_app()
     time.sleep(5)
     uninstall_app()
-    print(summary)
+    # print(summary)
+

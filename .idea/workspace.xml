@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc59a19-4bc2-49a9-9a19-d806666cbd9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cases/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/read_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/read_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
     </list>
@@ -25,7 +18,7 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cases/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="494">
               <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="e#156#185#0" expanded="true" />
@@ -49,8 +42,8 @@
       <file leaf-file-name="test3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cases/test3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="197" column="65" lean-forward="true" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
+            <state relative-caret-position="264">
+              <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -58,10 +51,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2018070820173485900054478.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018070820173485900054478.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1573" selection-start-column="1573" selection-end-column="1573" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018070820231979900069563.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018070820231979900069563.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="debug.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs/debug.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="4788">
               <caret line="252" selection-start-line="252" selection-end-line="252" />
             </state>
           </provider>
@@ -79,7 +86,7 @@
       <file leaf-file-name="datetime.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/tools/Anaconda3/Lib/datetime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
+            <state relative-caret-position="26372">
               <caret line="1389" column="8" selection-start-line="1389" selection-start-column="8" selection-end-line="1389" selection-end-column="8" />
             </state>
           </provider>
@@ -88,7 +95,7 @@
       <file leaf-file-name="read_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/read_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="361">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
@@ -170,11 +177,6 @@
               <item name="AppUiTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AppUiTest" type="462c0819:PsiDirectoryNode" />
               <item name="cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppUiTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AppUiTest" type="b2602c69:ProjectViewProjectNode" />
@@ -331,12 +333,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23645681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32591414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32591414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -351,9 +353,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32591414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32591414" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23645681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,20 +380,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="18" lean-forward="true" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -651,7 +639,7 @@
     </entry>
     <entry file="file://D:/tools/Anaconda3/Lib/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
+        <state relative-caret-position="26372">
           <caret line="1389" column="8" selection-start-line="1389" selection-start-column="8" selection-end-line="1389" selection-end-column="8" />
         </state>
       </provider>
@@ -665,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/read_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="361">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
@@ -675,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cases/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="494">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#156#185#0" expanded="true" />
@@ -685,15 +673,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/debug.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="4788">
           <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018070820231979900069563.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018070820173485900054478.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1573" selection-start-column="1573" selection-end-column="1573" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cases/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="197" column="65" lean-forward="true" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
+        <state relative-caret-position="264">
+          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
