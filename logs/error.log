@@ -2,3 +2,83 @@
 [2018-07-05 15:01:12,793] CRITICAL : 获取设备信息
 [2018-07-05 15:08:55,526] ERROR : 获取设备信息
 [2018-07-05 15:08:55,526] CRITICAL : 获取设备信息
+[2018-07-10 14:29:11,523] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app() done, defined at D:/PycharmProjects/AppUiTest/cases/async_test.py:83> exception=TypeError("object bytes can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/async_test.py", line 93, in install_app
+    result = await subprocess.check_output(cmd)
+TypeError: object bytes can't be used in 'await' expression
+[2018-07-10 14:29:11,526] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app() done, defined at D:/PycharmProjects/AppUiTest/cases/async_test.py:83> exception=TypeError("object bytes can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/async_test.py", line 93, in install_app
+    result = await subprocess.check_output(cmd)
+TypeError: object bytes can't be used in 'await' expression
+[2018-07-10 14:55:44,839] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app() done, defined at D:/PycharmProjects/AppUiTest/cases/async_test.py:117> exception=TypeError("object NoneType can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/async_test.py", line 118, in install_app
+    await install_app2(device_name)
+TypeError: object NoneType can't be used in 'await' expression
+[2018-07-10 14:55:44,845] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app() done, defined at D:/PycharmProjects/AppUiTest/cases/async_test.py:117> exception=TypeError("object NoneType can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/async_test.py", line 118, in install_app
+    await install_app2(device_name)
+TypeError: object NoneType can't be used in 'await' expression
+[2018-07-10 17:26:09,048] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app_3() done, defined at D:/PycharmProjects/AppUiTest/cases/test4.py:120> exception=TypeError("object NoneType can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/test4.py", line 121, in install_app_3
+    await install_app(device_name)
+TypeError: object NoneType can't be used in 'await' expression
+[2018-07-10 17:26:09,051] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app_3() done, defined at D:/PycharmProjects/AppUiTest/cases/test4.py:120> exception=TypeError("object NoneType can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/test4.py", line 121, in install_app_3
+    await install_app(device_name)
+TypeError: object NoneType can't be used in 'await' expression
+[2018-07-10 17:34:55,611] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app_3() done, defined at D:/PycharmProjects/AppUiTest/cases/test4.py:122> exception=TypeError("object str can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/test4.py", line 123, in install_app_3
+    await install_app(device_name)
+TypeError: object str can't be used in 'await' expression
+[2018-07-10 17:34:55,615] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app_3() done, defined at D:/PycharmProjects/AppUiTest/cases/test4.py:122> exception=TypeError("object str can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/test4.py", line 123, in install_app_3
+    await install_app(device_name)
+TypeError: object str can't be used in 'await' expression
+[2018-07-10 17:51:57,038] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app() done, defined at D:/PycharmProjects/AppUiTest/cases/test4.py:86> exception=TypeError("object bytes can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/test4.py", line 97, in install_app
+    result = await subprocess.check_output(cmd)
+TypeError: object bytes can't be used in 'await' expression
+[2018-07-10 17:51:57,040] ERROR : Task exception was never retrieved
+future: <Task finished coro=<install_app() done, defined at D:/PycharmProjects/AppUiTest/cases/test4.py:86> exception=TypeError("object bytes can't be used in 'await' expression",)>
+Traceback (most recent call last):
+  File "D:\tools\Anaconda3\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "D:/PycharmProjects/AppUiTest/cases/test4.py", line 97, in install_app
+    result = await subprocess.check_output(cmd)
+TypeError: object bytes can't be used in 'await' expression

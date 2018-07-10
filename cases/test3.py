@@ -68,7 +68,9 @@ def getdevlist():
                 temp = device_info[i].split('\t')
                 devlist.append(temp[0])
         logger.info('设备列表：{}'.format(devlist))
-        summary.setdefault('devices_list', devlist)
+        # summary.setdefault('devices_list', devlist)
+        _devlist = devlist[::]
+        summary['devices_list'] = _devlist
         if not devlist:
             logger.info('没有可用设备')
             # return
@@ -82,7 +84,8 @@ def getdevlist():
 # 安装app
 def install_app():
     try:
-        apk_path = read_config.apk_path
+        # apk_path = read_config.apk_path
+        apk_path = ''.join([rootPath, '\\apps\\', read_config.apk_path])
         logger.info('安装APP')
         for i in range(len(devlist)):
             # cmd = 'adb  -s ' + device_list[i] + ' install ' + apk_path
@@ -114,6 +117,18 @@ def install_app():
         for i in range(len(dellist)):#删除执行失败的设备，下一步不执行操作
             devlist.remove(dellist[i])
         if not devlist:
+            summary.setdefault('details', details)
+            summary.setdefault('end_time', int(round(time.time() * 1000)))  # 总体测试结束时间，精确到ms
+            summary.setdefault('duration', summary.get('end_time') - summary.get('start_time'))
+            start_time = time.localtime(summary.get('start_time') / 1000)
+            summary['start_time'] = time.strftime("%Y-%m-%d %H:%M:%S", start_time)  # 格式化开始时间
+            end_time = time.localtime(summary.get('end_time') / 1000)
+            summary['end_time'] = time.strftime("%Y-%m-%d %H:%M:%S", end_time)  # 格式化结束时间
+            summary.setdefault('result_status', 'fail')
+            # 存储测试结果
+            file_name = ''.join([rootPath, '/testoutput/', exec_uid, '.json'])
+            f = open(file_name, 'w')
+            f.write(str(summary))
             sys.exit(0)
     except subprocess.CalledProcessError as e:
         logger.error('安装app失败：', e)
@@ -205,7 +220,7 @@ def uninstall_app():
                 break
 
         #存储测试结果
-        file_name = ''.join([rootPath, '/', exec_uid, '.json'])
+        file_name = ''.join([rootPath, '/testoutput/', exec_uid, '.json'])
         f = open(file_name, 'w')
         f.write(str(summary))
     except subprocess.CalledProcessError as e:
